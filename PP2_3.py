@@ -11,9 +11,9 @@ def q1():
   word = input("In: ")
   if word [-1] == "y":
     print("-ies")
-  if word [-2] == "e":
+  if word [-2:] == "e":
     print("-eys")
-  if word [-1:-3] == "ife":
+  if word [-3:] == "ife":
     print("-ives")
 
 def q2(): 
